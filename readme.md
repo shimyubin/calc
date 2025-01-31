@@ -2,5 +2,5 @@
 
 ## API
 
-- add(a, b)
-- suabtract(a, b)
+- `add(a, b)`
+- `suabtract(a, b)`
