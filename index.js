@@ -6,11 +6,11 @@ function subtract(a, b) {
   return a- b;
 }
 
-function mul(a, b) {
+function multiply(a, b) {
   return a * b;
 }
 
-function divide(a, b) {
+function div(a, b) {
   return a / b;
 }
 
@@ -20,4 +20,12 @@ function testAdd() {
 
 function testSubtract() {
   console.log(subtract(2, 1) === 1);
+}
+
+function testMultiply() {
+  console.log(multiply(3, 3) === 9);
+}
+
+function testDiv() {
+  console.log(div(3, 3) === 1);
 }
